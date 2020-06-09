@@ -373,13 +373,13 @@ ghost.init({
 		<li class="nav-math"><a href=" https://stemlounge.com/tag/math/ ">MATH</a></li>
 </ul>
 
-			<div class="socialButtons">
-				  <a class="twitter-share-button"
+				<div class="socialButtons">
+					  <a class="twitter-share-button"
     href="https://twitter.com/intent/tweet?text=Muddy%20America%20%3A%20Color%20Balancing%20The%20Election%20Map%20-%20Infographic by @LarryWeru&hashtags=stemlounge,stem,math,social-science,data-visualization,"
     data-size="small"
     style="display: inline;">
   Tweet</a>
-				<div 
+					<div 
 	class="fb-share-button" 
 	data-href=" https://stemlounge.com/muddy-america-color-balancing-trumps-election-map-infographic/ "
 	data-layout="button_count" 
@@ -391,8 +391,8 @@ ghost.init({
 		class="fb-xfbml-parse-ignore">
 		Share
 	</a>
-</div>				<script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-<script type="IN/Share" data-url="https://stemlounge.com/muddy-america-color-balancing-trumps-election-map-infographic/"></script>			</div>
+</div>					<script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+<script type="IN/Share" data-url="https://stemlounge.com/muddy-america-color-balancing-trumps-election-map-infographic/"></script>				</div>
 
 			</nav>
 			<!-- end: .main-nav -->
@@ -421,6 +421,10 @@ ghost.init({
 		float: right;
 		padding: 6px 0;
 		z-index: 101;
+		display:inline;
+	}
+	.socialButtons .fb-share-button, .socialButtons .IN-widget, .socialButtons iframe{
+		display: inline-block !important;
 	}
 	.socialButtons .twitter-share-button.twitter-share-button-rendered.twitter-tweet-button{
 		margin-bottom: -7px;
