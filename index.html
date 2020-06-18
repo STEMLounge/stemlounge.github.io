@@ -480,7 +480,7 @@ ghost.init({
             <div class="articles">
                         
                         
-<article class="default index-0 grid-33 tablet-grid-50 np-mobile  post featured">
+<article class="default index-0 grid-33 tablet-grid-50 np-mobile first-row post tag-math tag-social-science tag-data-visualization featured">
 	<header>
 			<div class="featured-image">
 				<div style="position:relative">
@@ -493,16 +493,28 @@ ghost.init({
 						>
 						</span>
 					</a>
+						<div class="tags absolute">
+							<a href="/tag/math/">math</a><a href="/tag/social-science/">social science</a><a href="/tag/data-visualization/">data visualization</a>
+						</div>
 				</div>
 				<h4 class="title gradient-effect articleCardTitle"><a href="/muddy-america-color-balancing-trumps-election-map-infographic/">Muddy America : Color Balancing The Election Map - Infographic</a></h4>
 			</div>
 		
 	</header>
+
+	<footer class="author-meta">
+            <a href="/author/larryweru/" title="Larry Weru">
+                    <span class="author-image cover" style="background-image: url( //www.gravatar.com/avatar/7c9b02b7b87f5bd16cd507155d602b15?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x );"></span>
+                <span class="author-name">Larry Weru</span>
+                        <span class="author-count">7 Resources</span>
+            </a>
+		<div class="clear"></div>
+	</footer>
 </article>
 
 
                         
-<article class="default index-1 grid-33 tablet-grid-50 np-mobile  post featured">
+<article class="default index-1 grid-33 tablet-grid-50 np-mobile  post tag-science tag-physics featured">
 	<header>
 			<div class="featured-image">
 				<div style="position:relative">
@@ -515,16 +527,28 @@ ghost.init({
 						>
 						</span>
 					</a>
+						<div class="tags absolute">
+							<a href="/tag/science/">science</a><a href="/tag/physics/">physics</a>
+						</div>
 				</div>
 				<h4 class="title gradient-effect articleCardTitle"><a href="/why-objects-have-colors-illustration-animation/">Why Objects have Colors - Illustration - Animation</a></h4>
 			</div>
 		
 	</header>
+
+	<footer class="author-meta">
+            <a href="/author/larryweru/" title="Larry Weru">
+                    <span class="author-image cover" style="background-image: url( //www.gravatar.com/avatar/7c9b02b7b87f5bd16cd507155d602b15?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x );"></span>
+                <span class="author-name">Larry Weru</span>
+                        <span class="author-count">7 Resources</span>
+            </a>
+		<div class="clear"></div>
+	</footer>
 </article>
 
 
                         
-<article class="default index-2 grid-33 tablet-grid-50 np-mobile  post featured">
+<article class="default index-2 grid-33 tablet-grid-50 np-mobile  post tag-science tag-cycles tag-ecology tag-biogeochemistry featured">
 	<header>
 			<div class="featured-image">
 				<div style="position:relative">
@@ -537,13 +561,27 @@ ghost.init({
 						>
 						</span>
 					</a>
+						<div class="tags absolute">
+							<a href="/tag/science/">science</a><a href="/tag/cycles/">cycles</a><a href="/tag/ecology/">ecology</a><a href="/tag/biogeochemistry/">biogeochemistry</a>
+						</div>
 				</div>
 				<h4 class="title gradient-effect articleCardTitle"><a href="/the-water-cycle-infographic-animated/">The Water Cycle - Infographic - Animated</a></h4>
 			</div>
 		
 	</header>
+
+	<footer class="author-meta">
+            <a href="/author/larryweru/" title="Larry Weru">
+                    <span class="author-image cover" style="background-image: url( //www.gravatar.com/avatar/7c9b02b7b87f5bd16cd507155d602b15?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x );"></span>
+                <span class="author-name">Larry Weru</span>
+                        <span class="author-count">7 Resources</span>
+            </a>
+		<div class="clear"></div>
+	</footer>
 </article>
 
+	<div class="clear hide-on-tablet"></div>
+	<div class="separator hide-on-tablet hide-on-mobile"></div>
 
 	<div class="clear"></div>
 	<div class="separator last hide-on-tablet hide-on-mobile"></div>
@@ -866,6 +904,16 @@ ghost.init({
 				position: relative;
 				top: -1px;
 				z-index: 2;
+			}
+			div.articles article .featured-image{
+				border: 1px solid #dedede;
+    			margin: 1px;
+			}
+			div.articles article .tags{
+				pointer-events: none;
+			}
+			div.articles article .tags a{
+				pointer-events: auto;
 			}
 		</style>
 
